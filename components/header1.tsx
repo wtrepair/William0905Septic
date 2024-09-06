@@ -30,7 +30,7 @@ const Header1: NextPage<Header1Type> = ({
   const router = useRouter();
 
   const onSolutionClick = useCallback(() => {
-    router.push("https://williamssolutionpro.vercel.app/");
+    router.push("https://williamssolutions.pro");
   }, [router]);
 
   const onHomeClick = useCallback(() => {
@@ -38,7 +38,7 @@ const Header1: NextPage<Header1Type> = ({
   }, [router]);
 
   const onplumbingClick = useCallback(() => {
-    router.push("https://williams-plumbing-solutions.vercel.app/");
+    router.push("https://william0905-plumbing.vercel.app/");
   }, [router]);
 
   const onTAGHdLinkNormalContainerClick = useCallback(() => {
@@ -74,15 +74,15 @@ const Header1: NextPage<Header1Type> = ({
   }, [router]);
 
   const onWilliamsButtonClick = useCallback(() => {
-    router.push("https://williams-septic.vercel.app/");
+    router.push("https://william0905-septic.vercel.app/");
   }, [router]);
 
   const onExcavationButtonClick = useCallback(() => {
-    router.push("https://williamsexcavation.vercel.app/");
+    router.push("https://williams0905-excavation.vercel.app/");
   }, [router]);
 
   const onLoggingButtonClick = useCallback(() => {
-    router.push("https://williamslogging.vercel.app/");
+    router.push("https://williams0905-logging.vercel.app/");
   }, [router]);
 
   const [isOpen, setIsOpen] = useState(false);
