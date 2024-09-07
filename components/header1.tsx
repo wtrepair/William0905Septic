@@ -78,7 +78,7 @@ const Header1: NextPage<Header1Type> = ({
   }, [router]);
 
   const onExcavationButtonClick = useCallback(() => {
-    router.push("https://williams0905-excavation.vercel.app/");
+    router.push("https://wiliams0905-excavation.vercel.app/");
   }, [router]);
 
   const onLoggingButtonClick = useCallback(() => {
